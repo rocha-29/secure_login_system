@@ -4,17 +4,21 @@ A secure and modern login system built with **Flask**, featuring:
 - User registration and login
 - Advanced password validation
 - Persistent encrypted user storage using **Fernet**
-- Custom login_required decorator
-- User dashboard & profile
+- Custom `@login_required` decorator
+- User dashboard and profile page
 - Bootstrap 5 dark theme
+
+---
 
 ## 🚀 Features
 
 - 🔒 Password hashing with Werkzeug
 - ✅ Client-side and server-side validation
-- 📁 User data encrypted in `users.json`
-- 🌐 Clean and responsive UI
-- 🧪 Fully working demo with test users
+- 🔐 Encrypted user data stored in `users.json`
+- 🌐 Clean and responsive UI with Bootstrap 5
+- 🧪 Fully functional demo with test user
+
+---
 
 ## 📦 Tech Stack
 
@@ -25,21 +29,27 @@ A secure and modern login system built with **Flask**, featuring:
 - Werkzeug
 - Cryptography (Fernet)
 
-## 📂 Folder Structure
+---
+
+## 📁 Project Structure
 
 secure_login_system/
 ├── app.py
 ├── generate_key.py
 ├── secret.key
 ├── users.json
-├── templates/
-│ ├── base.html
-│ ├── login.html
-│ ├── register.html
-│ ├── dashboard.html
-│ └── profile.html
-└── requirements.txt
+├── requirements.txt
+├── demo/
+│ └── login.png
+└── templates/
+├── base.html
+├── login.html
+├── register.html
+├── dashboard.html
+└── profile.html
 
+
+---
 
 ## 🛠️ Setup Instructions
 
@@ -48,34 +58,28 @@ secure_login_system/
 git clone https://github.com/rocha-29/secure_login_system.git
 cd secure_login_system
 
-# 2. Create and activate virtual environment
+# 2. Create and activate a virtual environment
 python -m venv venv
-venv\Scripts\activate   # Windows
+venv\Scripts\activate    # On Windows
 
 # 3. Install dependencies
 pip install -r requirements.txt
 
-# 4. Generate encryption key (one-time)
+# 4. Generate encryption key (only once)
 python generate_key.py
 
-# 5. Run the app
+# 5. Run the Flask app
 python app.py
-App will run at http://127.0.0.1:5000
+App will be available at: http://127.0.0.1:5000
 
 🧪 Test Credentials
 Username	Password
 Prueba	Secure123!
 
-🖼️ Demo Screenshot
+📸 Demo Screenshot
 
 📄 License
 This project is licensed under the MIT License.
-
-
-## 📸 Demo Screenshot
-
-![Login Screenshot](https://raw.githubusercontent.com/rocha-29/secure_login_system/main/demo/login.png)
-
 
 🌟 Author
 Daniel Rocha — @rocha-29
