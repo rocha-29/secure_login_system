@@ -78,6 +78,8 @@ Prueba	Secure123!
 
 📸 Demo Screenshot
 
+![Login Screenshot](https://raw.githubusercontent.com/rocha-29/secure_login_system/main/demo/login.png)
+
 📄 License
 This project is licensed under the MIT License.
 
