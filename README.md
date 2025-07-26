@@ -74,7 +74,7 @@ This project is licensed under the MIT License.
 
 ## 📸 Demo Screenshot
 
-![Login Screenshot]([demo/login.png](https://github.com/rocha-29/secure_login_system/blob/main/demo/login.png)
+![Login Screenshot](https://raw.githubusercontent.com/rocha-29/secure_login_system/main/demo/login.png)
 
 
 🌟 Author
