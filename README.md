@@ -71,7 +71,11 @@ Prueba	Secure123!
 📄 License
 This project is licensed under the MIT License.
 
-🧿 Badges
+
+## 📸 Demo Screenshot
+
+![Login Screenshot](demo/login.png)
+
 
 🌟 Author
 Daniel Rocha — @rocha-29
