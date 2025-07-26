@@ -1,0 +1,7 @@
+# Archivos de seguridad
+secret.key
+data/users.json
+
+# Entorno virtual
+venv/
+__pycache__/
